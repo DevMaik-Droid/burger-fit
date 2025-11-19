@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-16 md:py-24">
+      <section className="bg-linear-to-br from-primary/5 to-accent/5 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">Nuestra Historia</h1>
           <p className="text-xl text-foreground/70 max-w-3xl">
@@ -75,7 +75,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-primary to-accent rounded-xl p-8 md:p-12 text-primary-foreground">
+          <div className="bg-linear-to-r from-primary to-accent rounded-xl p-8 md:p-12 text-primary-foreground">
             <h2 className="text-3xl font-bold mb-6">Ubicación y Horarios</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen=""
+                allowFullScreen={false}
                 loading="lazy"
               />
             </div>
