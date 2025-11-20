@@ -80,7 +80,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-linear-to-br from-orange-200/30 to-red-200/30 rounded-3xl p-5 backdrop-blur-sm border border-white/20">
                 <Image
-                  src="/images/hero-burger.jpg"
+                  src="/images/hero-burger.webp"
                   alt="Hamburguesa fitness"
                   width={600}
                   height={600}
