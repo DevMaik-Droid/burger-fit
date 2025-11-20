@@ -63,10 +63,18 @@ export default function Home() {
                   <ArrowRight size={20} />
                 </Link>
               </div>
-
-              <p className="text-sm text-white/70 mt-6">
+              <div className="text-sm text-center">
+                <p className=" text-white/70 mt-6">
                 ✨ 10% descuento en tu primer pedido
               </p>
+                <p className="text-white/90 mt-2 font-bold">
+                Tu mejor opcion, para tu mejor versión.
+              </p>
+                
+              
+              </div>
+
+              
             </div>
 
             <div className="relative">

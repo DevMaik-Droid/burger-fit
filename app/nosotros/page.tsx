@@ -39,8 +39,9 @@ export default function AboutPage() {
       name: "Oliver Laura",
       role: "Co-Founder & Finanzas",
       avatar: "OL",
+      foto: "/images/perfil/oli.webp",
       color: "from-green-500 to-emerald-600",
-      description: "Estratega de negocios",
+      description: "Especialista en gestión financiera y contabilidad",
     },
     {
       name: "Brayan Apaza",

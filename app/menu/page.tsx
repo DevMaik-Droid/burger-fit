@@ -1,7 +1,6 @@
 "use client"
 
-import { useState } from "react"
-import { Flame, Leaf, Star } from "lucide-react"
+import { Star } from "lucide-react"
 import Menu from "@/components/menu"
 import MenuBebidas from "@/components/menu-bebidas"
 
