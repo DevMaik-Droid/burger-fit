@@ -70,12 +70,13 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <div className="bg-linear-to-br from-orange-200/30 to-red-200/30 rounded-3xl p-8 backdrop-blur-sm border border-white/20">
+              <div className="bg-linear-to-br from-orange-200/30 to-red-200/30 rounded-3xl p-5 backdrop-blur-sm border border-white/20">
                 <Image
                   src="/images/hero-burger.jpg"
                   alt="Hamburguesa fitness"
                   width={600}
                   height={600}
+                  className="w-full h-full object-cover rounded-3xl"
                 />
               </div>
             </div>

@@ -1,7 +1,7 @@
-import { Producto } from "@/types/producto";
+import { Hamburguesa } from "@/types/producto";
 
 
-export const productos: Producto[] = [
+export const productos: Hamburguesa[] = [
   {
     id: 1,
     nombre: "Fit Classic Protein",
@@ -16,7 +16,7 @@ export const productos: Producto[] = [
     calorias: 420,
     proteina: "32g",
     precio: 18,
-    imagen: "/images/productos/fit-classic.png",
+    imagen: "/images/productos/fit-classic.webp",
     color: "from-amber-300 to-orange-300",
     bgGradient: "from-amber-200/30 to-orange-100/30"
   },
@@ -35,7 +35,7 @@ export const productos: Producto[] = [
     calorias: 380,
     proteina: "30g",
     precio: 20,
-    imagen: "/images/productos/chicken-power.png",
+    imagen: "/images/productos/chicken-power.webp",
     color: "from-green-200 to-emerald-300",
     bgGradient: "from-green-100/30 to-emerald-50/30"
   },
@@ -54,7 +54,7 @@ export const productos: Producto[] = [
     calorias: 360,
     proteina: "29g",
     precio: 16,
-    imagen: "/images/productos/keto-max.png",
+    imagen: "/images/productos/keto-max.webp",
     color: "from-emerald-200 to-green-300",
     bgGradient: "from-emerald-100/30 to-green-100/30"
   },
@@ -73,7 +73,7 @@ export const productos: Producto[] = [
     calorias: 450,
     proteina: "31g",
     precio: 22,
-    imagen: "/images/productos/andina-protein.png",
+    imagen: "/images/productos/andina-protein.webp",
     color: "from-rose-200 to-pink-300",
     bgGradient: "from-rose-100/30 to-pink-100/30"
   },
@@ -92,7 +92,7 @@ export const productos: Producto[] = [
     calorias: 330,
     proteina: "18g",
     precio: 20.50,
-    imagen: "/images/productos/super-veggie.png",
+    imagen: "/images/productos/super-veggie.webp",
     color: "from-green-200 to-lime-300",
     bgGradient: "from-green-100/30 to-lime-100/30"
   },
@@ -110,7 +110,7 @@ export const productos: Producto[] = [
     calorias: 550,
     proteina: "48g",
     precio: 32,
-    imagen: "/images/productos/triple-protein.png",
+    imagen: "/images/productos/triple-protein.webp",
     color: "from-purple-200 to-violet-300",
     bgGradient: "from-purple-100/30 to-violet-100/30"
   },
@@ -129,7 +129,7 @@ export const productos: Producto[] = [
     calorias: 410,
     proteina: "30g",
     precio: 25,
-    imagen: "/images/productos/bbq-light.png",
+    imagen: "/images/productos/bbq-light.webp",
     color: "from-red-200 to-rose-300",
     bgGradient: "from-red-100/30 to-rose-100/30"
   },
@@ -148,7 +148,7 @@ export const productos: Producto[] = [
     calorias: 390,
     proteina: "32g",
     precio: 35,
-    imagen: "/images/productos/avocado-chicken.png",
+    imagen: "/images/productos/avocado-chicken.webp",
     color: "from-emerald-200 to-green-300",
     bgGradient: "from-emerald-100/30 to-green-100/30"
   },
@@ -167,7 +167,7 @@ export const productos: Producto[] = [
     calorias: 320,
     proteina: "26g",
     precio: 29,
-    imagen: "/images/productos/light-tuna.png",
+    imagen: "/images/productos/light-tuna.webp",
     color: "from-sky-200 to-cyan-300",
     bgGradient: "from-sky-100/30 to-cyan-100/30"
   },
@@ -186,7 +186,7 @@ export const productos: Producto[] = [
     calorias: 440,
     proteina: "30g",
     precio: 20,
-    imagen: "/images/productos/power-breakfast.png",
+    imagen: "/images/productos/power-breakfast.webp",
     color: "from-yellow-200 to-amber-300",
     bgGradient: "from-yellow-100/30 to-amber-100/30"
   }

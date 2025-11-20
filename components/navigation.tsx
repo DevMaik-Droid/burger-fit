@@ -14,7 +14,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <Image src="/images/logo-p.png" alt="FitBurger Logo" width={85} height={65}></Image>
+            <Image src="/images/logo-p.webp" alt="FitBurger Logo" width={85} height={65}></Image>
             <span className="text-2xl font-bold bg-linear-to-r from-orange to-purple bg-clip-text text-transparent hidden sm:inline">
               BurgerFit
             </span>

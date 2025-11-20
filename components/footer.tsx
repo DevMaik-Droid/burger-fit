@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/images/logo-p.png" alt="FitBurger Logo" width={82} height={32}></Image>
+              <Image src="/images/logo-p.webp" alt="FitBurger Logo" width={82} height={32}></Image>
               <h3 className="font-bold text-xl text-foreground">BurgerFit</h3>
             </div>
             <p className="text-sm text-foreground/70 leading-relaxed">

@@ -1,17 +1,20 @@
 import { Flame, Leaf } from "lucide-react";
-import { productos } from "@/data/productos";
+import { bebidas } from "@/data/bebidas";
+
 import Image from "next/image";
 
 
 interface MenuProps {
+
     handleReserve: (nombre: string) => void;
+
 }
-const Menu = ( { handleReserve }: MenuProps) => {
+const MenuBebidas = ( { handleReserve }: MenuProps) => {
 
   return (
     <div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-        {productos.map((burger) => (
+        {bebidas.map((burger) => (
           <div key={burger.id} className="group relative h-full">
             <div
               className={`absolute -inset-1 bg-linear-to-r ${burger.color} rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition duration-300`}
@@ -37,7 +40,7 @@ const Menu = ( { handleReserve }: MenuProps) => {
                 </div>
               </div>
 
-              <div className="flex-1 flex flex-col p-6 relative justify-between">
+              <div className="flex-1 flex flex-col justify-between p-6 relative">
                 <div className="text-center mb-4">
                   <h3 className="text-2xl font-black text-transparent bg-linear-to-r from-orange via-orange-light to-orange-dark bg-clip-text drop-shadow-lg">
                     {burger.nombre}
@@ -107,4 +110,4 @@ const Menu = ( { handleReserve }: MenuProps) => {
   );
 };
 
-export default Menu;
+export default MenuBebidas;
